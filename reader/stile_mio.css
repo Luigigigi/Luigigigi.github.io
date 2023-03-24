@@ -1,0 +1,22 @@
+header{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 250px;
+color: aliceblue;
+}   
+
+body{
+    font-family:"font_POM";
+background-color: blue;
+color: aliceblue;
+font-size: 100px;
+}
+@font-face {
+    font-family: "font_POM";
+    src: url("OFPompilia-Capitals.woff");
+}
+
+h1{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
