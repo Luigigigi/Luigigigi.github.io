@@ -1,22 +1,194 @@
-header{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 250px;
-color: aliceblue;
-}   
-
-body{
-    font-family:"font_POM";
-background-color: blue;
-color: aliceblue;
-font-size: 100px;
+.square1 {position:absolute;
+    top: 36px;
+    left: 10px;
+    height: 25px;
+    width: 370px;
+    background-color: black;
+  }
+header1{
+   position: absolute;
+width: 370px;
+top:36px;
+left:10px;
+font-family:'font_Italico';
+font-style: normal;
+font-size: 29px;
+line-height:30px;
+text-align:center;
+color:white;
+ }
+ header2{
+    position: absolute;
+    width: 370px;
+    top: 66px;
+    left:10px;
+    font-family:'font_Italico';
+    font-style: normal;
+    font-size: 29px;
+    line-height:30px;
+    text-align:center;
+    color:black;
 }
+
+.square2 {position:absolute;
+    top: 96px;
+    left: 10px;
+    height: 25px;
+    width: 370px;
+    background-color: black;
+  }
+header3{
+   position: absolute;
+width: 370px;
+top:96px;
+left:10px;
+font-family:'font_Italico';
+font-style: normal;
+font-size: 29px;
+line-height:30px;
+text-align:center;
+color:white;
+ }
+ header4{
+    position: absolute;
+    width: 370px;
+    top: 126px;
+    left:10px;
+    font-family:'font_Italico';
+    font-style: normal;
+    font-size: 29px;
+    line-height:30px;
+    text-align:center;
+    color:black;
+}
+
+.square3 {position:absolute;
+    top: 156px;
+    left: 10px;
+    height: 25px;
+    width: 370px;
+    background-color: black;
+  }
+header5{
+   position: absolute;
+width: 370px;
+left:10px;
+top:156px;
+font-family:'font_Italico';
+font-style: normal;
+font-size: 29px;
+line-height:30px;
+text-align:center;
+color:white;
+ }
+ header6{
+    position: absolute;
+ width: 370px;
+ left:10px;
+ top: 186px;
+ font-family:'font_Italico';
+ font-style: normal;
+ font-size: 29px;
+ line-height:30px;
+ text-align:center;
+ color:black;
+  }
+
+   .square4 {position:absolute;
+    top: 216px;
+    left: 10px;
+    height: 25px;
+    width: 370px;
+    background-color: black;
+  }
+  header7{
+    position: absolute;
+ width: 370px;
+ left:10px;
+ top: 216px;
+ font-family:'font_Italico';
+ font-style: normal;
+ font-size: 29px;
+ line-height:30px;
+ text-align:center;
+ color:white;
+  }
+  header8{
+    position: absolute;
+ width: 370px;
+ left:10px;
+ top: 246px;
+ font-family:'font_Italico';
+ font-style: normal;
+ font-size: 29px;
+ line-height:30px;
+ text-align:center;
+ color:black;
+  }
+
+  .square5 {position:absolute;
+    top: 276px;
+    left: 10px;
+    height: 25px;
+    width: 370px;
+    background-color: black;
+  }
+  header9{
+    position: absolute;
+ width: 370px;
+ left:10px;
+ top: 276px;
+ font-family:'font_Italico';
+ font-style: normal;
+ font-size: 29px;
+ line-height:30px;
+ text-align:center;
+ color:white;
+  }
+  header10{
+    position: absolute;
+ width: 370px;
+ left:10px;
+ top: 306px;
+ font-family:'font_Italico';
+ font-style: normal;
+ font-size: 29px;
+ line-height:30px;
+ text-align:center;
+ color:black;
+  }
+
+  .square6 {position:absolute;
+    top: 336px;
+    left: 10px;
+    height: 25px;
+    width: 370px;
+    background-color: black;
+  }
+  header11{
+    position: absolute;
+ width: 370px;
+ left:10px;
+ top: 336px;
+ font-family:'font_Italico';
+ font-style: normal;
+ font-size: 29px;
+ line-height:30px;
+ text-align:center;
+ color:white;
+  }
+ 
+
 @font-face {
-    font-family: "font_POM";
-    src: url("OFPompilia-Capitals.woff");
+    font-family: "font_Italico";
+    src: url("Italico_700.woff");
 }
 
-h1{
+h1{position: absolute;
+top: 396px;
     margin-left: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:"font_Italico";
+    color: black;
+    font-style: normal;
     font-size: 20px;
 }
