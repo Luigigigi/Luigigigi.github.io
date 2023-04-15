@@ -198,8 +198,9 @@ color:white;
 }
 @font-face {
   font-family: "font_Kumbh";
-  src: url(KumbhSans-VariableFont_YOPQ_wght.woff);
+  src: url(Simpel-Medium.otf);
 }
+
 h1{position: absolute;
   left: 10px;
 top: 396px;
@@ -220,8 +221,9 @@ width: 370px;
     font-style: light;
     color: black;
     text-align: left;
-    font: weight 300px; ;
+    font: weight 300px;
+    letter-spacing:0.3px;
     font-size: 20px;
-  line-height: 22.5px;
+  line-height: 30px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
