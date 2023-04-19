@@ -43,7 +43,7 @@
 
      <!-- !!! Only 1 Marker but lots of assets inside it !!! -->
 
-      <a-marker type='pattern' url='pattern-pattern_1.patt' smooth="true">
+      <a-marker type='pattern' url='pattern_marker.patt' smooth="true">
 
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
@@ -100,7 +100,7 @@
         depth="2"
         position="2 0 0" 
         rotation="0 0 0"               
-        src="TP.png"
+        src="face.jpg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
@@ -114,7 +114,51 @@
         dur: 10000; 
         loop:true"               
         >                 
-        </a-box>        
+        </a-box>  
+        
+        <a-box 
+        width="2"
+        height="2"
+        depth="2"
+        position="-1 0 0" 
+        rotation="0 0 0"               
+        src="face.jpg"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"               
+        >                 
+        </a-box>  
+
+        <a-box 
+        width="2"
+        height="2"
+        depth="2"
+        position="-2 0 0" 
+        rotation="0 0 0"               
+        src="face.jpg"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"               
+        >                 
+        </a-box>  
 
          
 
