@@ -196,10 +196,6 @@ color:white;
     font-family: "font_Italico";
     src: url("Italico_700.woff");
 }
-@font-face {
-  font-family: "font_Kumbh";
-  src: url(Simpel-Medium.otf);
-}
 
 h1{position: absolute;
   left: 10px;
