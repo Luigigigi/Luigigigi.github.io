@@ -194,7 +194,7 @@ color:white;
   header12{position: absolute;
     width: 370px;
     left:10px;
-    top: 456px;
+    top: 586px;
     font-family:'font_Italico';
     font-size: 28px;
     line-height:30px;
@@ -209,6 +209,12 @@ color:white;
     src: url("Italico_700.woff");
 }
 
+@font-face {
+  font-family: "font_Kumbh";
+  src: url("KumbhSans-VariableFont_YOPQ_wght.woff");
+}
+
+
 h1{position: absolute;
   left: 10px;
 top: 396px;
@@ -222,9 +228,9 @@ width: 370px;
 }
 
 h2{position: absolute;
-  left: 10px;
-top: 600px;
-width: 370px;
+  left: 20px;
+top: 616px;
+width: 350px;
     font-family:font_Kumbh;
     font-style: light;
     color: black;
