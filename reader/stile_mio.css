@@ -191,6 +191,18 @@ color:white;
  color:white;
   }
  
+  header12{position: absolute;
+    width: 370px;
+    left:10px;
+    top: 456px;
+    font-family:'font_Italico';
+    font-size: 28px;
+    line-height:30px;
+    text-align:left;
+    color:black;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+  }
 
 @font-face {
     font-family: "font_Italico";
