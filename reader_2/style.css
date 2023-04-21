@@ -2,14 +2,14 @@ header1{
     position: absolute;
     width: 284px;
     height: 138px;
-
+    left: 53px;
     top: 259px;
 
     font-family: "JMH";
     font-size: 25px;
     letter-spacing: 2px;
     color: white;
-    width: 90%;
+    width: 370px;
     text-align: center;
 
 
@@ -19,76 +19,39 @@ header2{
     position: absolute;
     width: 284px;
     height: 25px;
+    left: 53px;
     top: 485px;
 
     font-family: "JMH";
     font-size: 13px;
 letter-spacing: 2px;
     color: white;
-    width: 90%;
+    width: 370px;
     text-align: center;
 
 
 }
 
-div.paragraph1{
-position: absolute;
-left: 20px;
+paragraph1{
+    
+    position: absolute;
+
+height: 3548px;
+left: 53px;
 top: 845px;
 font-family: "JMH";
     font-size: 13px;
     line-height: 25px;
 letter-spacing: 1px;
     color: white;
-    width: 95%;
+    width: 90;
     text-align: justify;
 }
 
-div.header3{
-    position: absolute;
-left: 20px;
-top: 1030px;
-font-family: "JMH";
-    font-size: 18px;
-    line-height: 25px;
-letter-spacing: 1px;
-    color: white;
-    width: 95%;
-    text-align: justify;
-}
-
-
-
-div.paragraph2{
-position: absolute;
-left: 50px;
-top: 1090px;
-font-family: "JMH";
-    font-size: 13px;
-    line-height: 25px;
-letter-spacing: 1px;
-    color: white;
-    width: 90%;
-    text-align: justify;
-}
-
-div.header4{
-    position: absolute;
-left: 20px;
-top: 1470px;
-font-family: "JMH";
-    font-size: 18px;
-    line-height: 25px;
-letter-spacing: 1px;
-    color: white;
-    width: 95%;
-    text-align: justify;
-
-
-}
 
 body{
     background-color: black;
+
 font-family: "JMH";
 font-size: 40px;
 color: white;
