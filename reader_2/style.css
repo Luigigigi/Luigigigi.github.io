@@ -9,27 +9,21 @@ header1{
     color: white;
     width: 90%;
     text-align: center;
-
-
 }
 
 header2{
     position: absolute;
     height: 25px;
     top: 485px;
-
     font-family: "JMH";
     font-size: 13px;
 letter-spacing: 2px;
     color: white;
     width: 90%;
     text-align: center;
-
-
 }
 
 title1{
-
 font-family: "JMH";
     font-size: 18px;
     line-height: 50px;
@@ -42,7 +36,6 @@ letter-spacing: 1px;
 
 paragraph1{
 position: absolute;
-
 height: 3548px;
 left: 10px;
 top: 845px;
@@ -54,7 +47,6 @@ letter-spacing: 1px;
     width: 90%;
     text-align: justify;
 }
-
 
 body{
     background-color: black;
