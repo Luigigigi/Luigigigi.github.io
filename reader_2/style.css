@@ -2,7 +2,7 @@ header1{
     position: absolute;
     width: 284px;
     height: 138px;
-    left: 53px;
+
     top: 259px;
 
     font-family: "JMH";
@@ -19,7 +19,6 @@ header2{
     position: absolute;
     width: 284px;
     height: 25px;
-    left: 53px;
     top: 485px;
 
     font-family: "JMH";
@@ -61,15 +60,13 @@ letter-spacing: 1px;
     text-align: justify;
 }
 
-}
 
-paragraph2{
-    
-    position: absolute;
-width: 284px;
+
+div.paragraph2{
+position: absolute;
 height: 3548px;
-left: 53px;
-top: 845px;
+left: 50px;
+top: 1090px;
 font-family: "JMH";
     font-size: 13px;
     line-height: 25px;
@@ -81,7 +78,6 @@ letter-spacing: 1px;
 
 body{
     background-color: black;
-
 font-family: "JMH";
 font-size: 40px;
 color: white;
