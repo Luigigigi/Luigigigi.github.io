@@ -9,7 +9,7 @@ header1{
     font-size: 25px;
     letter-spacing: 2px;
     color: white;
-    width: 370px;
+    width: 90%;
     text-align: center;
 
 
@@ -26,13 +26,44 @@ header2{
     font-size: 13px;
 letter-spacing: 2px;
     color: white;
-    width: 370px;
+    width: 90%;
     text-align: center;
 
 
 }
 
-paragraph1{
+div.paragraph1{
+    
+    position: absolute;
+height: 3548px;
+left: 20px;
+top: 845px;
+font-family: "JMH";
+    font-size: 13px;
+    line-height: 25px;
+letter-spacing: 1px;
+    color: white;
+    width: 95%;
+    text-align: justify;
+}
+
+div.header3{
+    position: absolute;
+height: 3548px;
+left: 20px;
+top: 1030px;
+font-family: "JMH";
+    font-size: 18px;
+    line-height: 25px;
+letter-spacing: 1px;
+    color: white;
+    width: 95%;
+    text-align: justify;
+}
+
+}
+
+paragraph2{
     
     position: absolute;
 width: 284px;
@@ -44,10 +75,9 @@ font-family: "JMH";
     line-height: 25px;
 letter-spacing: 1px;
     color: white;
-    width: 370px;
+    width: 90%;
     text-align: justify;
 }
-
 
 body{
     background-color: black;
