@@ -1,0 +1,64 @@
+header1{
+    position: absolute;
+    width: 284px;
+    height: 138px;
+    left: 53px;
+    top: 259px;
+
+    font-family: "JMH";
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+    width: 370px;
+    text-align: center;
+
+
+}
+
+header2{
+    position: absolute;
+    width: 284px;
+    height: 25px;
+    left: 53px;
+    top: 485px;
+
+    font-family: "JMH";
+    font-size: 13px;
+letter-spacing: 2px;
+    color: white;
+    width: 370px;
+    text-align: center;
+
+
+}
+
+paragraph1{
+    
+    position: absolute;
+width: 284px;
+height: 3548px;
+left: 53px;
+top: 845px;
+font-family: "JMH";
+    font-size: 13px;
+    line-height: 25px;
+letter-spacing: 1px;
+    color: white;
+    width: 370px;
+    text-align: justify;
+}
+
+
+body{
+    background-color: black;
+
+font-family: "JMH";
+font-size: 40px;
+color: white;
+
+
+}
+@font-face {
+    font-family: "JMH";
+    src: url("JMH Typewriter-Thin.otf");
+}
