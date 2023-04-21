@@ -1,8 +1,6 @@
 header1{
     position: absolute;
-    width: 284px;
     height: 138px;
-    left: 53px;
     top: 259px;
 
     font-family: "JMH";
@@ -17,9 +15,7 @@ header1{
 
 header2{
     position: absolute;
-    width: 284px;
     height: 25px;
-    left: 53px;
     top: 485px;
 
     font-family: "JMH";
@@ -32,8 +28,19 @@ letter-spacing: 2px;
 
 }
 
+title1{
+
+font-family: "JMH";
+    font-size: 18px;
+    line-height: 50px;
+letter-spacing: 1px;
+    color: white;
+    width: 95%;
+    text-align: left;
+
+}
+
 paragraph1{
-    
     position: absolute;
 
 height: 3548px;
@@ -44,7 +51,7 @@ font-family: "JMH";
     line-height: 25px;
 letter-spacing: 1px;
     color: white;
-    width: 90;
+    width: 90%;
     text-align: justify;
 }
 
