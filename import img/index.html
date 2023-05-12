@@ -3,28 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width", initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        window.onload = function () {
+          //add constraints object
+          var constraints = { video: true };
+        
+          //call getUserMedia, then the magic
+          navigator.mediaDevices
+            .getUserMedia(constraints)
+            .then(function (mediaStream) {
+              var video = document.getElementById("webcam");
+              video.srcObject = mediaStream;
+              video.play();
+            })
+            .catch(function (err) {});
+        };
+        </script>
+  
 </head>
 <body>
-    <img src="David Carson.jpg" alt="david carson portrait">
-    <div class="box">
-      no shit mate
 
-    </div>
-    <div class="loco">
-   gutafac amigo ests re loco
-        
-      </div>
+<div class="bgvideo">
+<video src="2.mov" autoplay loop muted></video>
+</div>
 
-      <div class="loco img">
-<img src="David Carson.jpg" alt="">
-        
-      </div>
-      <div class="box">
-        no shit mate
-        
-      </div>
+<div class="imageimport">
+    <img src="blue screen.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+    <img src="2.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+    <img src="2.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+    <img src="2.png" alt="damage to reality">
+    <img src="2.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+</div>
+
+<h1>ACTUALNEWS.COM</h1>
+   
+<div class="container">
+    <img src="2.png" alt="Snow" style="width:100%;">
+    <div class="title">Article Title</div>
+
+</div>
+
+<div class = "container2">
+
+<h2>TRUE OR</h2>
+<h3>FALSE OR</h3>
+
+</div>
+<div class="recommend">
+    <h4>Recommend</h4>
+    <img src="2.png" alt="damage to reality">
+    <img src="2.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+    <video id="webcam" class="webcam"></video>
+    <img src="blue screen.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+    <img src="2.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+    <img src="blue screen.png" alt="damage to reality">
+</div>
+
+
 </body>
 </html>

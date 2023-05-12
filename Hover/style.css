@@ -1,0 +1,104 @@
+body{
+    background-color: yellowgreen;
+    margin: 0px;
+    font-size: 36px;
+}
+
+img{
+    width:100%;
+}
+
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    outline: 1px solid royalblue;
+    height: 30%;
+    animation: widthanimation 10s infinite alternate ease-in-out;
+    text-align: center;
+}
+
+
+div.width100 {
+    width:100%;
+}
+
+div.width80 {
+    width: 80%;
+}
+
+div.width75 {
+    width: 75%;
+}
+
+div.width66 {
+    width: 66.666%;
+}
+
+div.width60 {
+    width: 60%;
+}
+
+div.width50 {
+    width: 50%;
+}
+
+div.width40 {
+    width: 40%;
+}
+
+div.width33 {
+    width:33.333%;
+}
+
+div.width25 {
+    width:25%;
+}
+
+div.width20 {
+    width:20%;
+}
+
+div.bgblue{
+    background-color: blue;
+}
+
+div.bgred{
+    background-color: red;
+}
+
+div.menu {
+    position: fixed;
+   top: 0px;
+   left: 20%;
+   font-size: 8vw;
+    background-color: magenta;
+    animation: backgroundcolor 1s infinite alternate linear;
+    
+}
+
+div.coloranimation {
+    background-color: red;
+
+}
+
+@keyframes backgroundcolor {
+    0%{
+background-color: greenyellow;
+    }
+
+    100%{
+        background-color: skyblue;
+    }
+}
+
+@keyframes widthanimation {
+    0%{
+        width:100%;
+    }
+    100%{
+        width:30%;
+    }    
+}
