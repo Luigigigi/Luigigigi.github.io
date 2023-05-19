@@ -24,8 +24,8 @@ div.webcambackground {
     left:0;
     width:100%;
     height:100vh;
-    font-family: 'black';
-    font-size: 10vw;
+    font-family: 'medium';
+    font-size: 6vw;
     color:red;
     text-align: center;
     mix-blend-mode: difference;
