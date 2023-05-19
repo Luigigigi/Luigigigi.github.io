@@ -6,20 +6,34 @@ body{
 position:fixed;
 left: 0px;
 top: 0px;
-width:100%;
+width:10vw;
 opacity:70%;
 }
 
+
 .imageimport{
-    position:relative;
-    top: 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    width: 25%;
+
 }
 
 img{
-    width: 33%;
-    height:20%;
-    opacity:90%;
 
+    width: 100%;
+    height:auto;
+    opacity:90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+video{
+
+    object-fit:contain;
+    opacity: 80%;
 }
 
 h1{
@@ -41,12 +55,11 @@ font-size:10vw;
     left: auto;
     bottom: 0px;
     font-family: 'medium';
-    color: yellow;
+    color: red;
 font-size: 8vw;
 }
 
 .container2{
-    outline: 2px solid white;
     display: flex;
     margin-top: 8%;
     width: 100%;
@@ -81,7 +94,7 @@ h3{
 }
 
 h4{
-    outline: 2px solid white;
+
     margin-bottom:10px;
     margin-top:10px;    
     margin-left:auto;
@@ -121,9 +134,18 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .webcam{
     -webkit-transform:rotateY(180deg); /* Safari and Chrome */
     object-fit:contain;
-    width:33%;
-    height:20%;
+    width:25%;
+    height:auto;
     opacity: 80%;
-   
 }
 
+div.blur img {
+    filter: blur(3px);
+    transition: 0.8s;
+  }
+  
+  div.blur img:hover {
+    filter: blur(0px);
+    transition: 0.8s;
+  }
+  
