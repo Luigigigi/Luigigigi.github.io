@@ -42,7 +42,7 @@ margin-top:10px;
 margin-left:auto;
 font-family: 'black';
 color:white;
-font-size:10vw;
+font-size:5vw;
 }
 
 .container {
@@ -55,7 +55,7 @@ font-size:10vw;
     left: auto;
     bottom: 0px;
     font-family: 'medium';
-    color: red;
+    color: skyblue;
 font-size: 8vw;
 }
 
@@ -148,4 +148,5 @@ div.blur img {
     filter: blur(0px);
     transition: 0.8s;
   }
-  
+
+

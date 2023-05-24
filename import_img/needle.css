@@ -1,0 +1,28 @@
+.bgimg{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+width: 100%;
+}
+
+html {
+    cursor: none;
+    overflow: hidden;
+}
+.pointer {
+    position: absolute;
+    height: 480px; top:100px;
+    width: 480px; left:50%;
+    pointer-events: none;
+}
+
+.pointer img {
+    width: 40vw;
+}
+
+a{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+}
