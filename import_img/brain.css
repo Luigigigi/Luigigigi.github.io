@@ -14,3 +14,27 @@ a{
     top: 0px;
     width:100%;
 }
+
+.text{
+    text-align: center;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    font-family: 'medium';
+    color: black;
+font-size: 8vw;
+opacity: 80%;
+filter: blur(1px);
+}
+
+
+
+
+@font-face {
+    font-family: "medium";
+    src: url("MuseoModerno-Medium.ttf");
+}
+@font-face {
+    font-family: "black";
+    src: url("MuseoModerno-Black.ttf");
