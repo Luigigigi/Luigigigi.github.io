@@ -1,28 +1,38 @@
-.bgimg{
-    position: fixed;
+body{
+    background-color: black;
+}
+
+.bgvideo{
+    display: flex;
+    flex-wrap: wrap;
+    position:fixed;
     left: 0px;
     top: 0px;
 width: 100%;
-}
+opacity: 85%;
+    }
 
+video{
+    object-fit: cover;
+    margin: 0px;
+    width: 33.33333%;
+    height: 33.333vh;
+}
+    
 html {
     cursor: none;
     overflow: hidden;
 }
 .pointer {
     position: absolute;
-    height: 480px; top:100px;
-    width: 480px; left:50%;
     pointer-events: none;
 }
 
 .pointer img {
-    width: 40vw;
-}
-
-a{
-    position:fixed;
-    left: 0px;
-    top: 0px;
-    width:100%;
+    position: relative;
+    left: -13vw;
+    top: -10vw;
+    width: 30vw;
+    opacity: 95%;
+    mix-blend-mode: difference;
 }
