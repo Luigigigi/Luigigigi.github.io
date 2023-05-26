@@ -28,3 +28,10 @@ font-size: 9vw;
 opacity: 80%;
 filter: blur(1px);
 }
+
+a{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+}
