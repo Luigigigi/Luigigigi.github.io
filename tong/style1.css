@@ -8,7 +8,7 @@ background-color: pink;
 }
 
 div.blur img {
-  filter: blur(15px);
+  filter: blur(10px);
   transition: 0.4s;
 }
 
@@ -44,14 +44,17 @@ img{
 div.hero {
   position: fixed;
   left: 0px;
-  top: 0px;
-  outline: 1px solid red;
+  top: 0px; 
   width: 40vw;
   height: 30vh;
-  background-image:url("eye1.png");
-  object-fit: fill;
+  object-fit: cover;
 }
 
-div.hero:hover {
-  background-image:url("eyes2.png");
+div.hero2 {
+  position: fixed;
+  right: 0px;
+  bottom: 0px; 
+  width: 40vw;
+  height: 30vh;
+  object-fit: cover;
 }

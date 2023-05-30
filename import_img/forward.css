@@ -1,0 +1,39 @@
+body{
+    background-color:red;
+    display: flex;
+}
+
+.bgvideo{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width:10vw;
+    opacity:70%;
+    z-index: -1;
+    }
+
+div.row{
+    color: white;
+    mix-blend-mode: difference;
+    font-family: medium;
+    font-size: 10vw;
+    margin-bottom: 0px;
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("MuseoModerno-Medium.ttf");
+}
+@font-face {
+    font-family: "black";
+    src: url("MuseoModerno-Black.ttf");
+}
+
+div.eye{
+    background-image: url(eyesymbol.png);
+    width: 50%;
+    position: fixed;
+    left: -8vw;
+    width: 50%;
+    mix-blend-mode: difference;
+}
