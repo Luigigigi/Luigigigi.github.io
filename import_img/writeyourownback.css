@@ -1,0 +1,47 @@
+div.webcambackground {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    z-index: -1;
+    opacity: 60%;
+  }
+  
+  video.webcam {
+    width:100%;
+  /*  This height will make it responsive to the screen height  */
+    height:100vh;
+    /*  this is similar to background size or feel free to remove this extra line*/
+    object-fit:cover;
+    -webkit-transform:rotateY(180deg);
+  }
+
+  input{
+    background:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    font-family: 'medium';
+    font-size: 6vw;
+    color: rgb(146, 224, 255);
+    text-align: center;
+    mix-blend-mode: difference;
+  }
+
+p{
+    background:none;
+    position:fixed;
+    font-family: 'medium';
+    font-size: 1vw;
+}
+  @font-face {
+    font-family: "medium";
+    src: url("MuseoModerno-Medium.ttf");
+}
+@font-face {
+    font-family: "black";
+    src: url("MuseoModerno-Black.ttf");
+}

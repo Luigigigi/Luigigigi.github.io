@@ -1,0 +1,37 @@
+body{
+    background-color:black;
+}
+
+.text{
+    text-align: center;
+    font-family: 'medium';
+    color: red;
+font-size: 8vw;
+opacity: 80%;
+filter: blur(1px);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("MuseoModerno-Medium.ttf");
+}
+@font-face {
+    font-family: "black";
+    src: url("MuseoModerno-Black.ttf");
+}
+
+.itself{
+    text-align: center;
+    font-family: 'black';
+    color: red;
+font-size: 9vw;
+opacity: 80%;
+filter: blur(1px);
+}
+
+a{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+}
