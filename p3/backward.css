@@ -19,7 +19,7 @@ div.row{
     color: white;
     mix-blend-mode: difference;
     font-family: black;
-    font-size: 16vw;
+    font-size: 16.5vw;
     filter: blur(1px);
 }
 
@@ -41,14 +41,15 @@ a{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-
+mix-blend-mode: difference;
 }
 
 img{
-    border-radius: 0.5vw;
+    margin-top: 2vw;
+    border-radius: 8vw;
     width: 100%;
     height:auto;
-    opacity:70%;
+
     display: flex;
     flex-wrap: wrap;
 }
