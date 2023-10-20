@@ -76,6 +76,7 @@ h3{
 div.john{
     margin-top: 5vw;
     mix-blend-mode: luminosity;
+    opacity: 90%;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -90,7 +91,7 @@ div.scroll-container {
   }
   
   div.scroll-container img {
-    width: 40%;
+    width: 30%;
     padding: 1vw;
   }
 
