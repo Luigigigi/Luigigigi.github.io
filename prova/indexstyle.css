@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.row{
+    width: 33.3%;
+}
+
+div.imagegallery{
+    width: 33.3%;
+}
+

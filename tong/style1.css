@@ -46,7 +46,7 @@ div.hero {
   left: 0px;
   top: 0px; 
   width: 40vw;
-  height: 30vh;
+  
   object-fit: cover;
 }
 
@@ -55,6 +55,26 @@ div.hero2 {
   right: 0px;
   bottom: 0px; 
   width: 40vw;
-  height: 30vh;
+ 
   object-fit: cover;
+}
+div.hero3{
+  position: fixed;
+  left: 30vw;
+  top: 35vh;
+  width: 40vw;
+  height: 30vh;
+  z-index: -1;
+}
+
+@font-face {
+  font-family:bold ;
+  src: url(Courier-BOLD-3.otf);
+}
+
+h1{
+  color: white;
+  font-family: bold;
+  line-height: 1.3;
+  padding: 30%;
 }

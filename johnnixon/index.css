@@ -1,0 +1,115 @@
+body{
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+div.bgimg{
+    position: fixed;
+    left: 0px;
+    top: -1vw;
+    scale: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+div.logo{
+   position:relative;
+   width: 50%;
+   margin-top: 15%;
+ margin-left: auto;
+ margin-right: auto;
+}
+img{
+    width: 100%;
+}
+
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+}
+h1{
+    position: relative;
+    width: 30%;
+    margin-top: 20vw;
+    margin-left: 5vw;
+    color: white;
+    font-family: "Gmedium";
+    font-size: 3vw;
+    text-align: left;
+}
+
+h2{
+    position: relative;
+    width: 30%;
+    margin-top: 20vw;
+    margin-left: auto;
+    margin-right: 5vw;
+    color: white;
+    font-family: "Gmedium";
+    font-size: 4vw;
+   
+    text-align: right;
+}
+video{
+    opacity: 80%;
+    width: 90%;
+    height: auto;
+    margin-top: -10vw;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+h3{
+        position: relative;
+        width: 50%;
+        margin-top: 1vw;
+        margin-left: auto;
+        margin-right:auto;
+        color: white;
+        font-family: "Glight";
+        font-size: 2vw;
+        text-align: center;
+        line-height: 120%;
+}
+
+div.john{
+    margin-top: 5vw;
+    mix-blend-mode: luminosity;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    rotate: 180%;
+}
+
+div.scroll-container {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1vw;
+  }
+  
+  div.scroll-container img {
+    width: 40%;
+    padding: 1vw;
+  }
+
+@font-face {
+    font-family:"buffer";
+    src: url("buffer.otf");
+}
+
+@font-face {
+    font-family:"fugue";
+    src: url("Fugue-Regular.otf");
+}
+
+@font-face {
+    font-family:"Glight";
+    src: url("Graphik-Light.otf");
+}
+
+@font-face {
+    font-family:"Gmedium";
+    src: url("Graphik-Medium.otf");
+}
