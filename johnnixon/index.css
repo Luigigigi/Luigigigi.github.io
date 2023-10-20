@@ -96,11 +96,6 @@ div.scroll-container {
   }
 
 @font-face {
-    font-family:"buffer";
-    src: url("buffer.otf");
-}
-
-@font-face {
     font-family:"fugue";
     src: url("Fugue-Regular.otf");
 }
