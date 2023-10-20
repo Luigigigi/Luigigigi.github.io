@@ -74,13 +74,13 @@ h3{
 }
 
 div.john{
-    margin-top: 5vw;
+    transform: rotate(180deg);
+    margin-top: 0vw;
     mix-blend-mode: luminosity;
     opacity: 90%;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
-    rotate: 180%;
 }
 
 div.scroll-container {
