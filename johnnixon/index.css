@@ -14,11 +14,22 @@ div.bgimg{
 
 div.logo{
    position:relative;
-   width: 50%;
-   margin-top: 15%;
+   width: 90%;
+   margin-top: 3vw;
  margin-left: auto;
  margin-right: auto;
 }
+
+div.blur img {
+    filter: blur(0.5vw);
+    transition: 0.8s;
+  }
+  
+  div.blur img:hover {
+    filter: blur(0px);
+    transition: 0.8s;
+  }
+
 img{
     width: 100%;
 }
@@ -26,7 +37,6 @@ img{
 div.row{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 15%;
 }
 h1{
     position: relative;
@@ -47,7 +57,7 @@ h2{
     margin-right: 5vw;
     color: white;
     font-family: "Gmedium";
-    font-size: 4vw;
+    font-size: 4.5vw;
    
     text-align: right;
 }
@@ -55,35 +65,36 @@ video{
     opacity: 80%;
     width: 90%;
     height: auto;
-    margin-top: -10vw;
+    margin-top: 5vw;
     margin-left: 5%;
     margin-right: auto;
 }
 
 h3{
-        position: relative;
-        width: 50%;
-        margin-top: 1vw;
-        margin-left: auto;
-        margin-right:auto;
-        color: white;
-        font-family: "Glight";
-        font-size: 2vw;
-        text-align: center;
-        line-height: 120%;
-}
+    position: relative;
+    width: 30%;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 5vw;
+    color: white;
+    font-family: "Glight";
+    font-size: 1.5vw;
+    text-align: left ;
+    line-height: 150%;
+    }
 
 div.john{
-    transform: rotate(180deg);
-    margin-top: 0vw;
-    mix-blend-mode: luminosity;
+    margin-top: 5vw;
+    margin-bottom: 0vw;
     opacity: 90%;
-    width: 30%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 div.scroll-container {
+    margin-top: 5vw;
     background-color: white;
     overflow: auto;
     white-space: nowrap;
@@ -94,6 +105,25 @@ div.scroll-container {
     width: 30%;
     padding: 1vw;
   }
+
+div.logolockup{
+    margin-top: -5vw;
+    padding: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    
+}
+
+div.logolockup img {
+margin-left: auto;
+margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: contain;
+    width: 20%;
+    height: auto;
+}
 
 @font-face {
     font-family:"fugue";
