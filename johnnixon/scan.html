@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scan.css">
+
+    <script>
+        window.onload = function () {
+          //add constraints object
+          var constraints = { video: true };
+        
+          //call getUserMedia, then the magic
+          navigator.mediaDevices
+            .getUserMedia(constraints)
+            .then(function (mediaStream) {
+              var video = document.getElementById("webcam");
+              video.srcObject = mediaStream;
+              video.play();
+            })
+            .catch(function (err) {});
+        };
+        </script>
+</head>
+<body>
+    <video id="webcam" class="webcam"></video>
+    <form action="backward.html">
+
+</body>
+</html>
