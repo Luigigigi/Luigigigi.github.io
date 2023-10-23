@@ -5,11 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="scan.css">
+    <style>
+      #container {
+        margin: 0px auto;
+        width: 100%;
+        height: 100%;
+        background-image: url("21.png");  
+        background-size: contain;
+      }
+      #videoElement {
+        overflow: hidden;
+        object-fit: cover;
+        filter: invert();
+        width: 100%;
+        height: 100vh;
+        -webkit-transform:rotateY(180deg);
+
+      }
+      </style>
+    
 </head>
 <body>
-  <div class="webcambackground">
-  <input type="file" accept="video/*;capture=camcorder">
+  <div id="container">
+    <video autoplay="true" id="videoElement">
+    </video>
 </div>
+
+<script>
+  var video = document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+navigator.mediaDevices.getUserMedia({ video: true })
+  .then(function (stream) {
+    video.srcObject = stream;
+  })
+  .catch(function (err0r) {
+    console.log("Something went wrong!");
+  });
+}
+</script>
+
 </body>
 </html>

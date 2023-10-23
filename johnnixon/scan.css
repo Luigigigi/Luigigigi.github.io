@@ -1,4 +1,4 @@
-div.webcambackground {
+div.container {
     position:fixed;
     top:0;
     left:0;
@@ -8,7 +8,7 @@ div.webcambackground {
     opacity: 60%;
   }
   
-  video.webcam {
+  #videoElement {
     width:100%;
   /*  This height will make it responsive to the screen height  */
     height:100vh;
