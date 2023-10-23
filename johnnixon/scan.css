@@ -6,6 +6,7 @@ div.container {
     height:100vh;
     z-index: -1;
     opacity: 60%;
+    
   }
   
   #videoElement {
