@@ -7,16 +7,13 @@
   <title>JavaScript Camera</title>
  
   <style>
-    #section{
-  
-   
-    }
-#column is-four-fifths{
 
- 
-}
+    #section{
+        background-image: url("21.png");  
+        background-size: contain;
+    }
+
     #video{
-      
     position:fixed;
     top:0px;
     left:0px;
@@ -30,13 +27,23 @@
     }
     #btnChangeCamera{
         position: fixed;
-        width: 10vw;
-        height: 10vw;
+        width: 20vw;
+        height: 20vw;
         bottom: 0px;
-        left: 45vw;
-        font-size: 2vw;
+        left: 40vw;
+        font-size: 3vw;
 
     }
+div.bgimg{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100vh;
+    background-image: url("21.png");  
+    background-size: contain;
+}
+    
 @font-face {
     font-family: ;
     src: url();
@@ -61,22 +68,22 @@ button{
   <section class="section">
         <div class="column is-four-fifths">
         
-        
-        <video autoplay id="video"></video>
+        <div class="bgimg">
+        <video autoplay playsinline id="video"></video>
     
-    
-        <button class="button is-hidden" id="btnPlay">
+            <button class="button is-hidden" id="btnPlay">
             
-              <i class="fas fa-play"></i>
+                <i class="fas fa-play"></i>
       
           </button>
           
-          <button class="button" id="btnChangeCamera">
+            <button class="button" id="btnChangeCamera">
            
-              <i class="fas fa-sync-alt"></i>
+                <i class="fas fa-sync-alt"></i>
         
             <span>SWITCH CAMERA</span>
           </button>
+        </div>
         </div>
         </div>
 
