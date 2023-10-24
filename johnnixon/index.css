@@ -1,6 +1,28 @@
 body{
     flex-wrap: wrap;
-    background-color: red;
+    background-image: url(red.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+div.menu{
+    width: 40%;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    font-family:"buffer";
+    font-size: 2vw;
+    margin-left: 5%;
+}
+
+a{
+  width: 40%;
+    
+    color: white;
+    z-index: 1
 }
 
 div.bgimg{
@@ -15,7 +37,7 @@ div.bgimg{
 div.logo{
     position:relative;
     width: 90%;
-    margin-top: 3vw;
+    top: -8.5vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,7 +63,7 @@ div.row{
 h1{
     position: relative;
     width: 30%;
-    margin-top: 20vw;
+    margin-top: 5vw;
     margin-left: 5vw;
     color: white;
     font-family: "Gmedium";
@@ -52,7 +74,7 @@ h1{
 h2{
     position: relative;
     width: 30%;
-    margin-top: 20vw;
+    margin-top: 5vw;
     margin-left: auto;
     margin-right: 5vw;
     color: white;
@@ -138,4 +160,9 @@ div.logolockup img {
 @font-face {
     font-family:"Gmedium";
     src: url("Graphik-Medium.otf");
+}
+
+@font-face {
+    font-family:"Buffer";
+    src: url("buffer.otf");
 }
