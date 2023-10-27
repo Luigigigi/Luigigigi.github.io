@@ -1,0 +1,20 @@
+div.menu{
+    margin-left: 29vw;
+    right: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    font-family: "outfit";
+}
+a{
+    margin: 1vw;
+    color: rgb(193, 43,42);
+    text-decoration: none;
+}
+
+video{
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+}

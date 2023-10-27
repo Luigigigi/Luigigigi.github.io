@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    flex: wrap;
+    background-color: rgb(193, 43,42);
+    overflow: none;
+    }
+
+    div.menu{
+        margin-left: 29vw;
+        right: auto;
+        box-sizing: border-box;
+        display: inline-block;
+        font-size: 1.2vw;
+        margin-top: 2vw;
+        font-family: "outfit";
+    }
+
+a{
+    margin: 1vw;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+  
+.inner-img {
+    transition: 0.5s;
+  }
+.inner-img:hover {
+    transform: scale(1.1);
+  }
+img{
+    margin-left: 6vw;
+    margin-top: 5vw;
+    width: 15vw;
+    height: auto;
+}
+
+
+
+@font-face {
+    font-family: "outfit";
+    src: url("Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Antone";
+    src: url("Antone Clean.ttf");
+}
