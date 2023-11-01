@@ -18,3 +18,8 @@ video{
     width: 80%;
     margin-left: 10%;
 }
+
+@font-face {
+    font-family: "outfit";
+    src: url("Outfit-Regular.ttf");
+}

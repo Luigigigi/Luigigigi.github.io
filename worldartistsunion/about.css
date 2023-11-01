@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-
+    background-color: rgb(193, 43,42);
 }
 
 div.menu{
@@ -14,7 +14,7 @@ div.menu{
 }
 a{
     margin: 1vw;
-    color: rgb(193, 43,42);
+    color: white;
     text-decoration: none;
 
 }
@@ -30,19 +30,36 @@ img{
     margin-top: 8vw;
     width: 20%;
     margin-left: 40%;
+    margin-bottom: 8vw;
 }
-h1{
+h1{ 
+    color: white;
     width: 40%;
     margin-left: 30%;
     display: block;
-    font-family: "outfit";
+    font-family: "jli";
     line-height: 140%;
     font-size: 1.8vw;
     text-align: center;
     margin-top: 10%;
 }
 
+h2{
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+    display: block;
+    font-family: "j";
+    line-height: 140%;
+    font-size: 2.4vw;
+    text-align: center;
+    margin-top: 10%;
+}
 
+p::first-letter{
+    font-size: 5vw;
+    font-family: "j";
+}
 
 
 
@@ -54,4 +71,14 @@ h1{
 @font-face {
     font-family: "Antone";
     src: url("Antone Clean.ttf");
+}
+
+@font-face {
+    font-family: "j";
+    src: url("j.ttf");
+}
+
+@font-face {
+    font-family: "jli";
+    src: url("jli.ttf");
 }

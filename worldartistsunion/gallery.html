@@ -10,101 +10,49 @@
 <body>
 
     <div class="menu">
-        <a href="homepage.html">HOME</a>
+      <a href="homepage.html">HOME</a>
 
-        <a href="about.html">ABOUT</a>
-        
-        <a href="manifesto.html">MANIFESTO</a>
-        
-        <a href="gallery.html">GALLERY</a>
-        
-        <a href="">JOIN WAU</a>
+      <a href="about.html">MANIFESTO</a>
+          
+      <a href="manifesto.html">ARCHIVE</a>
+      
+      <a href="gallery.html">GALLERY</a>
+      
+      <a href="joinpage.html">JOIN WAU</a>
         
         <a href="">LOGIN</a>
     </div>
 
-    <div class="slideshow-container" loop="true">
-        <div class="mySlides fade">
-          <img src="1.jpg" style="width:100%">
-        </div>
-        
-        <div class="mySlides fade">
-          <img src="2.jpg" style="width:100%">
-        </div>
-        
-        <div class="mySlides fade">
-          <img src="3.jpg" style="width:100%">
-        </div>
-        
-        <div class="mySlides fade">
-            <img src="4.jpg" style="width:100%">
-          </div>
-          
-          <div class="mySlides fade">
-            <img src="5.jpg" style="width:100%">
-          </div> 
+<div class="scroll-container" id=""> <h1>Series Red</h1>
+  <img src="PR_1.jpg" alt="">
+  <img src="PR_2.jpg" alt="">
+  <img src="PR_3.jpg" alt="">  
+  <img src="PR_4.jpg" alt="">
+</div>
 
-          <div class="mySlides fade">
-            <img src="6.jpg" style="width:100%">
-          </div>
-
-          <div class="mySlides fade">
-            <img src="7.jpg" style="width:100%">
-          </div> 
-
-          <div class="mySlides fade">
-            <img src="8.jpg" style="width:100%">
-          </div>
-
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-
-
-          
-        </div>
-
-
-
-      <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 5000); // Change image every 2 seconds
-        }
-        </script>
-
-<div class="text">
-    <h1>Are you being treated unfair?</h1>
-    <h1>JOIN WORLD ARTIST'S UNION.</h1>
-    <h1>WE CAN HELP.</h1>
-
-    </div>
-
+<div class="scroll-container2" id=""> <h2>Series White</h2>
+  <img src="PW_1.jpg" alt="">
+  <img src="PW_2.jpg" alt="">
+  <img src="PW_3.jpg" alt="">  
+  <img src="PW_4.jpg" alt="">
+</div>
     
+<div class="scroll-container2" id=""> <h2>Series Revolution</h2>
+  <img src="PRV_1.jpg" alt="">
+  <img src="PRV_2.jpg" alt="">
+  <img src="PRV_3.jpg" alt="">  
+  <img src="PRV_4.jpg" alt="">
+</div>
+    
+<div class="scroll-container" id=""> <h1>Series Homage</h1>
+  <img src="PH_1.png" alt="">
+  <img src="PH_2.png" alt="">
+  <img src="PH_3.png" alt="">  
+  <img src="PH_4.png" alt="">
+</div>
+
+<div class="logo">
+<img src="logoW.png" alt="">
+</div>
 </body>
 </html>
