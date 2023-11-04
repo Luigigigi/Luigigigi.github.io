@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    background-color: rgb(193, 43,42);
+text-align: center;
+}
+
+div.menu{
+
+    right: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    font-family: "outfit";
+}
+a{
+    margin: 1vw;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+form{
+    margin-top: 10vw;
+}
+
+label{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    font-family: "outfit";
+    color: white;
+}
+
+input{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    font-family: "outfit";
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url("Outfit-Regular.ttf");
+}
+
+img{
+    margin-top: 8vw;
+    width: 20%;
+    margin-bottom: 8vw;
+}
