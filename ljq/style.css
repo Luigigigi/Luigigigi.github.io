@@ -1,0 +1,15 @@
+body{
+    font-size: 5vw;
+    font-family: "1";
+    left: auto;
+    right: auto;
+}
+
+img{
+    width: 20vw;
+}
+
+@font-face {
+    font-family: "1";
+    src: url(苹方黑体-中粗-简.ttf);
+}
